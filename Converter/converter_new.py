@@ -14,9 +14,8 @@ while True:
         print("Nekaj se je zalomilo, napako bomo popravili v najkrajšem možnem času.")
 
     milje = vnos * 0.621371192
-    milje = str(round(milje, 2))
 
-    print("Vaše število se pretvori v " + milje + " milje")
+    print(f"Vaše število se pretvori v {milje:.2f} milje")
 
     nadaljevanje = input("Želiš nadaljevati: [y/n]")
 
